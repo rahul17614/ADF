@@ -73,16 +73,15 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [
-					{
-						"name": "filename"
-					}
-				],
+				"userProperties": [],
 				"typeProperties": {
 					"storedProcedureName": "[dbo].[sp_DataLoadLog]",
 					"storedProcedureParameters": {
 						"FileName": {
-							"value": "@dataset().filename",
+							"value": {
+								"value": "product.csv",
+								"type": "Expression"
+							},
 							"type": "String"
 						},
 						"Log": {
@@ -128,16 +127,15 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [
-					{
-						"name": "filename"
-					}
-				],
+				"userProperties": [],
 				"typeProperties": {
 					"storedProcedureName": "[dbo].[sp_DataLoadLog]",
 					"storedProcedureParameters": {
 						"FileName": {
-							"value": "@dataset().filename",
+							"value": {
+								"value": "product.csv",
+								"type": "Expression"
+							},
 							"type": "String"
 						},
 						"Log": {

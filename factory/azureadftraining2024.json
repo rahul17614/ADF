@@ -1,0 +1,9 @@
+{
+	"name": "azureadftraining2024",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4bfe5e46-637c-4f60-a1d8-40640d91bd09",
+		"tenantId": "6e535d74-399c-4960-bfaa-ea9c059145ef"
+	}
+}

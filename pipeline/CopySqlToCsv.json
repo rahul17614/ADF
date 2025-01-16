@@ -35,15 +35,15 @@
 					"logSettings": {
 						"enableCopyActivityLog": true,
 						"copyActivityLogSettings": {
-							"logLevel": "Warning",
-							"enableReliableLogging": false
+							"logLevel": "Info",
+							"enableReliableLogging": true
 						},
 						"logLocationSettings": {
 							"linkedServiceName": {
 								"referenceName": "AzureBlobStorage",
 								"type": "LinkedServiceReference"
 							},
-							"path": ""
+							"path": "copyactivity-logs"
 						}
 					},
 					"translator": {
